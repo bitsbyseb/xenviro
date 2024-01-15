@@ -31,9 +31,13 @@ class xenv {
                     }
 
                     for (let b = equalIndex + 1; b <= x.length; b++) {
+                        if (x[b] === '#') {
+                            break;
+                        }
                         if (x[b] !== '"') {
                             valuesResponse.push(x[b]);
                         }
+
                     }
                     keys.push(keysResponse.join(''));
                     values.push(valuesResponse.join(''));
