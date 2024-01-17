@@ -1,11 +1,3 @@
-import xenv from "./services/xenv";
+import xenvify from "./services/xenvify";
 
-const reader = new xenv({});
-
-(async () => {
-    await reader.readFile();
-    console.log(process.env.XD);
-    // console.log(process.env.XD);
-    console.log(process.env.MESSAGE_XD);
-    
-})();
+export default xenvify;
