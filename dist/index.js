@@ -3,5 +3,5 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const xenvify_1 = __importDefault(require("./services/xenvify"));
-exports.default = xenvify_1.default;
+const xenviro_service_1 = __importDefault(require("./services/xenviro.service"));
+exports.default = xenviro_service_1.default;

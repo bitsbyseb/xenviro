@@ -1,21 +1,21 @@
 import fs from 'fs';
 import path from 'path';
 
-interface xenvifyConfig {
+interface xenviroConfig {
     fileName?: string,
 }
 
-class xenvify {
+class xenviro {
     private path: string | undefined;
-    constructor(config: xenvifyConfig) {
+    constructor(config: xenviroConfig) {
         this.path = config.fileName;
     }
 
      readFile() {
         try {
-            const xenvifyRegex = /([\w\_]+)\=\"?([\w\s\.\n\d\,\%\#]*)\"?/g;
+            const xenviroRegex = /([\w\_]+)\=\"?([\w\s\.\n\d\,\%\#]*)\"?/g;
             const content = fs.readFileSync(path.join(process.cwd(), (this.path ?? '.env')), { encoding: 'utf-8'});
-            const results = content.matchAll(xenvifyRegex);
+            const results = content.matchAll(xenviroRegex);
 
             for (let match of results) {
                 process.env[match[1]] = match[2];
@@ -27,4 +27,4 @@ class xenvify {
     }
 }
 
-export default xenvify;
+export default xenviro;

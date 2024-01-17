@@ -1,5 +1,5 @@
 {
-  "name": "xenvify",
+  "name": "xenviro",
   "version": "1.0.0",
   "description": "a modern,easy to learn,environment variables reader, written in TypeScript.",
   "main": "dist/index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitsbyseb/xenvify.git"
+    "url": "git+https://github.com/bitsbyseb/xenviro.git"
   },
   "author": "johanpuentes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitsbyseb/xenvify/issues"
+    "url": "https://github.com/bitsbyseb/xenviro/issues"
   },
-  "homepage": "https://github.com/bitsbyseb/xenvify#readme",
+  "homepage": "https://github.com/bitsbyseb/xenviro#readme",
   "devDependencies": {
     "nodemon": "^3.0.2",
     "ts-node": "^10.9.2",

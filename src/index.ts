@@ -1,3 +1,3 @@
-import xenvify from "./services/xenvify";
+import xenviro from "./services/xenviro.service";
 
-export default xenvify;
+export default xenviro;
