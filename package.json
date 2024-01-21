@@ -1,6 +1,6 @@
 {
   "name": "xenviro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a modern,easy to learn,environment variables reader, written in TypeScript.",
   "main": "dist/index.js",
   "scripts": {
