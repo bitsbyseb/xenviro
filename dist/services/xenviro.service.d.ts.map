@@ -1,0 +1,1 @@
+{"version":3,"file":"xenviro.service.d.ts","sourceRoot":"","sources":["../../src/services/xenviro.service.ts"],"names":[],"mappings":"AAGA,UAAU,aAAa;IACnB,QAAQ,CAAC,EAAE,MAAM,CAAC;CACrB;AAED,cAAM,OAAO;IACT,OAAO,CAAC,IAAI,CAAqB;gBACrB,MAAM,EAAE,aAAa;IAIhC,QAAQ;CAcZ;AAED,eAAe,OAAO,CAAC"}
